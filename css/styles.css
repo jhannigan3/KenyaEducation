@@ -1,0 +1,63 @@
+/* custom CSS rules */
+
+/* display none for layout but be careful of license restrictions */
+
+.mapbox-logo, .leaflet-control-attribution {
+  display: none;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  /*background: AliceBlue; ----works*/
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+
+  /*background: AliceBlue; ----works*/
+}
+h3 {
+  font-family: 'Raleway', serif;
+  color: white;
+
+  /*background: AliceBlue; ----works*/
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  /*background: AliceBlue; ----does NOT works*/
+}
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: darkgray;
+}
+
+.legend-large, .legend-small {
+  border-radius: 50%;
+}
+
+hr.small, hr.large {
+  width: 83px;
+  position: absolute;
+  top: -8px;
+  left: 55px;
+  border: 1px dashed #ccc;
+  /* overwrite assembly.css rule */
+  margin-top: 8px;
+  /* overwrite assembly.css rule */
+}
+
+.boys {
+  color: #6E77B0;
+}
+
+.girls {
+  color: #D96D02;
+}
+
+.tab {
+  margin-left: 70px;
+  font-size: 18px;
+}
